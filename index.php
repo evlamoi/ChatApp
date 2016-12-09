@@ -14,10 +14,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>       
     </head>
     <body> 
-        <div id="container">
-            <div id="menu">
-                <p class="welcome">Welcome, $user<b></b></p>
-                <p class="logout"><a id="exit" href="#">Exit Chat</a></p>
+        <div class="container">
+            <div class="row"></div>
+            <div class="row">
+                <div class="col s6 welcome">Welcome, $user<b></b></div>
+                <div class="col s6 logout"><a style="float:right" id="exit" href="#">Exit Chat</a></div>
             </div>
              
             <div id="chatbox"></div>
